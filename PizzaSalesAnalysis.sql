@@ -85,8 +85,6 @@ FROM pizza_sales
 GROUP BY pizza_size
 ORDER BY order_frequency DESC;
 
--- What are the most popular pizza ingredients?
-
 
 -- PROFITABILITY ANALYSIS
 -- What is the average price per pizza category?
@@ -104,12 +102,3 @@ ORDER BY total_revenue DESC;
  
 
 
-
-/*  
- Customer & Order Insights
-1️4️ What is the average number of pizzas per order?
-1️5️ What is the most frequently ordered pizza size?
-1️6️ What are the most popular pizza ingredients?
- Profitability Analysis
-1️7️ What is the average price per pizza category?
-1️8️ Which pizzas have the highest total price per order? */
